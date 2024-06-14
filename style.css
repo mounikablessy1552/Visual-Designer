@@ -1,0 +1,340 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: all .5s ease-in-out;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.head {
+    height: 80vh;
+    width: 100%;
+    padding: 30px 10%;
+    color: white;
+    font-size: 20px;
+}
+
+.header,
+.navbar-links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links ul li {
+    margin: 0px 20px;
+}
+
+.navbar-links ul li a:focus{
+    color: red;
+}
+
+.navbar-links ul li:hover {
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.icon {
+    color: red;
+}
+
+.images {
+    float: left;
+}
+
+.sidematter {
+    margin-top: 190px;
+    margin-left: 700px;
+}
+
+.red {
+    color: red;
+}
+
+.but1 {
+    width: 90px;
+    height: 30px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.back {
+    background-color: rgb(56, 54, 54);
+    width: 50%;
+    height: 600px;
+    position: absolute;
+    top: 0%;
+    left: 0;
+}
+
+
+.section2 {
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+    padding: 30px 10%;
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    top: 8%;
+    left: 30%;
+}
+
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+
+}
+
+.col.name1:hover,
+.col.name2:hover,
+.col.name3:hover {
+    transform: scale(1.1);
+}
+
+.centers:hover {
+    transform: scale(1.1);
+}
+
+.col {
+    width: 300px;
+    height: 250px;
+    background-color: rgb(210, 212, 213);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.icon1 {
+    color: red;
+    padding: 10px 4px;
+    font-size: 25px;
+}
+
+.name1 {
+    background-color: rgb(130, 122, 122);
+    padding: 0px 19px;
+
+}
+
+.see {
+    margin: 25px;
+    color: red;
+}
+
+.paragraph {
+    margin: 13px;
+}
+
+.col h2 {
+    margin-left: 10px;
+}
+
+.icon2 {
+    color: rgb(212, 199, 199);
+    padding: 10px 4px;
+    font-size: 25px;
+}
+
+.name2 {
+    background-color: rgb(215, 34, 34);
+    padding: 0px 19px;
+
+}
+
+.see2 {
+    margin: 25px;
+    color: rgb(220, 213, 213);
+}
+
+.your {
+    font-size: 55px;
+    background-color: transparent;
+    color: red;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.hover:hover {
+    transform: scale(1.1);
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+.centers {
+    background-color: rgb(244, 89, 75);
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.middley {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.project {
+    color: white;
+    width: 50%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.but2 {
+    width: 90px;
+    height: 30px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: rgb(241, 93, 93);
+    color: white;
+    margin-left: 1100px;
+    border: none;
+}
+
+.but2:hover {
+
+    background-color: rgb(212, 0, 0);
+    color: aliceblue;
+
+}
+
+.project h1 {
+    margin-top: 60px;
+    margin-left: 350px;
+}
+
+.project p {
+    margin-left: 300px;
+}
+
+.p1 {
+    margin-top: -200px;
+}
+
+.book1 {
+    width: 40%;
+    height: 400px;
+    background-color: gray;
+    margin: 25px;
+    margin-bottom: 60px;
+
+}
+
+.books {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.book1 img {
+    width: 100%;
+    height: 400px;
+    padding: 40px 40px;
+}
+
+
+.book1 img:hover {
+    transform: scale(1.1);
+}
+
+.the {
+    color: white;
+}
+
+.footer {
+    background-color: rgb(49, 48, 48);
+    height: 350px;
+    margin: 30px 35px;
+
+}
+
+.foot {
+    color: white;
+    background-color: rgb(51, 50, 50);
+    margin: 25px 20px;
+    height: 170px;
+    width: 80%;
+    padding: 15px 25px;
+    float: left;
+}
+
+.but4 {
+    border-radius: 5px;
+    background-color: rgb(234, 103, 103);
+    color: rgb(65, 61, 61);
+    border: none;
+    width: 90px;
+    height: 35px;
+    margin-left: -140px;
+    margin-top: 20px;
+}
+
+.but4:hover {
+    background-color: #f00;
+    color: white;
+}
+
+
+
+.end {
+    margin-top: -120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.let {
+    margin: 20px;
+}
+
+.finaly ul {
+    margin-left: 600px;
+    color: white;
+    font-size: 20px;
+}
+
+.finaly ul li {
+
+    float: left;
+    margin: 15px;
+}
+
+
+.but1:hover {
+    transform: scale(1.3);
+
+}
+
+.final:hover {
+    transform: scale(1.3);
+
+}
